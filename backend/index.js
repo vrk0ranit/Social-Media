@@ -12,7 +12,7 @@ import axios from "axios";
 
 dotenv.config();
 
-const url = `http://localhost:5000/api/health`;
+const url = `https://social-media-50zf.onrender.com/api/health`;
 const interval = 30000;
 
 function reloadWebsite() {
